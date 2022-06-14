@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  height: 100vh;
+}
+
+.container .logo {
+  width: 80px;
+  padding: 10px;
+}
+
+.container .form-container {
+  background-color: rgb(21,20,18);
+  width: 30%;
+  margin: 0 auto;
+  padding: 80px 60px 80px 60px;
+}
+
+.container .form-container h1 {
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+
+.container .form-container .primary-input,
+.container .form-container .sign-in-btn {
+  padding-top: 15px;
+  padding-right: 8px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  display: block;
+  width: 95%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.container .form-container .primary-input {
+  background: #333;
+  border: none;
+}
+
+.container .form-container .sign-in-btn { 
+  text-decoration: none;
+  text-align: center;
+  background-color: #e50914;
+}
