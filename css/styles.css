@@ -24,10 +24,11 @@ img {
 }
 
 .container .form-container {
-  background-color: rgb(21,20,18);
-  width: 30%;
+  background-color: rgba(0, 0,0,0.75);
+  width: 80%;
+  max-width: 450px;
   margin: 0 auto;
-  padding: 80px 60px 80px 60px;
+  padding: 60px 60px 60px 60px;
 }
 
 .container .form-container h1 {
@@ -44,9 +45,11 @@ img {
   display: block;
   width: 95%;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
-
+#password_input {
+  margin-bottom: 0;
+}
 .container .form-container .primary-input {
   background: #333;
   border: none;
@@ -56,4 +59,38 @@ img {
   text-decoration: none;
   text-align: center;
   background-color: #e50914;
+  margin-top: 40px;
+}
+
+
+.help-section {
+  font-size: 13px;
+  margin-bottom: 90px;
+}
+.help-section label,a {
+  color: #b3b3b3;
+}
+
+
+
+.form-footer span {
+  font-size: 16px;
+  color: #737373;
+}
+.form-footer a {
+  color: white;
+  text-decoration: none;
+}
+.form-footer > div {
+  margin-bottom: 11px;
+}
+.form-footer p {
+  font-size: 13px;
+  color: #8c8c8c;
+}
+.form-footer p a {
+  color: #0071eb;
+}
+.form-footer {
+  margin-bottom: 60px;
 }
