@@ -8,9 +8,10 @@
 
 body {
   background-color: black;
+  min-height: 300vh;
 }
 
-img {
+img, video {
   width: 100%;
 }
 
@@ -123,4 +124,30 @@ input {
   padding-inline: 26px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.feature-section {
+  padding: 90px 45px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 8px solid #222;
+
+}
+
+.feature-section .feature {
+
+}
+
+.feature-section .feature-heading {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.feature-section .feature-desc {
+  font-size: 26px;
+  max-width: 550px;
+}
+
+.feature-section .feature-media {
+  width: 30%;
 }
